@@ -1,0 +1,22 @@
+.lead__way{
+  margin: 0 auto;
+	max-width: 984px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .lead__way {
+    max-width: 320px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .lead__way {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1279px) {
+  .lead__way {
+    max-width: 928px;
+  }
+}
